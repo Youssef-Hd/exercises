@@ -52,24 +52,3 @@ echo "Hey Sir, Please i need 1 pack of {$groceries[0]['brand']}  {$groceries[0][
 
 
 
-<?php
-$groceries = array(
-    array(
-        'name' => 'eggs',
-        'brand' => 'balade',
-        'supplier' => 'mazere3'
-    ),
-    array(
-        'name' => 'milk',
-        'brand' => 'fresh',
-        'supplier' => 'Taanayel'
-    ),
-    array(
-        'name' => 'water-pack',
-        'brand' => 'Tanoureen',
-        'supplier' => 'Reem'
-    )
-);
-
-echo "Hey Sir, please I need 1 pack of " . $groceries[0]['brand'] . " " . $groceries[0]['supplier'] . " " . $groceries[0]['name'];
-?>
